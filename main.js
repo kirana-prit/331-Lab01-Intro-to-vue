@@ -28,6 +28,7 @@ createApp({
         function toggleInStock(){
             inventory.value = 0
             onSale.value = false
+            inStock.value = false
         }
         return{
             product,description,image,link,inStock,inventory,onSale,details,variants,sizes,cart,addToCart,
